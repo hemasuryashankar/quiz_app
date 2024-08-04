@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div id="app">
+    <div class="quiz-container">
+      <div id="topic-selection">
+        <h2>Select a Topic</h2>
+        <select id="topic-dropdown">
+          <option value="">Select a topic</option>
+        </select>
+        <button id="start-btn">Start Quiz</button>
+      </div>
+      <div id="quiz" class="hidden"></div>
+      <button id="next-btn" class="hidden">Next</button>
+      <div id="result" class="hidden"></div>
+      <button id="play-again-btn" class="hidden">Play Again</button>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
